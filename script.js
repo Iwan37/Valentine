@@ -46,8 +46,8 @@
                 base.style.fontSize = `${currSize * 0.97}px`;
             }
             if (entropy < 0.05) {
-                document.querySelector('.yes-button')?.removeEventListener("click", handleYes);
-                document.querySelector('.no-button')?.removeEventListener("click", handleNo);
+                document.querySelector('.yes-button')?.removeEventListener("click", handleIya);
+                document.querySelector('.no-button')?.removeEventListener("click", handleEnggak);
             }
         }, Math.random() * 20000 + 10000);
     }
